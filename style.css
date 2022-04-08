@@ -71,3 +71,24 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* media queries */
+
+@media screen and (max-width:450px) {
+  
+ 
+  
+  .container{
+    background-color: #f2f2cd;
+    float: left;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+
+  
+}
