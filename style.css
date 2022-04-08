@@ -75,7 +75,7 @@ img {
 
 /* media queries */
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:420px) {
   
  
   
@@ -89,6 +89,19 @@ img {
   margin-bottom: 10px;
   
 }
+
+.container .grey{
+  float: left;
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 
   
 }
